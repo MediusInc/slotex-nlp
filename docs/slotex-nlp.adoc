@@ -1,0 +1,42 @@
+= SloTex NLP
+:revremark: Initial version
+:toc: left
+:sectnums:
+:source-highlighter: prettify
+:favicon: images/favicon.ico
+:imagesdir: images
+
+
+Is a main SloTex NLP project, which joins all project modules and also include
+project user and developer documentation, project's web page, and all other
+necessary info to use or contribute to SloTex NLP in your own environment. 
+
+
+== Project details
+
+== Project goals
+
+== Project founters
+
+[NOTE]
+====
+
+**The project is founded from Slovenian PKP grand. **
+
+====
+
+
+image::logo-pkp.png[]
+
+image::logo-mizs.jpg[]
+
+== Project contributors
+
+image::logo.png[]
+
+image::logo-fe.png[]
+
+image::logo-fri.png[]
+
+image:logo-ff.png[]
+
