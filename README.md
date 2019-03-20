@@ -1,4 +1,4 @@
-#SloTex NLP
+# SloTex NLP
 
 Is a main SloTex NLP project, which joins all project modules and also include
 project user and developer documentation, project's web page, and all other
