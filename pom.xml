@@ -44,7 +44,7 @@
                             <goal>process-asciidoc</goal>
                         </goals>
                         <configuration>
-                            <sourceDocumentName>slotex-nlp.adoc</sourceDocumentName>
+                            <sourceDocumentName>index.adoc</sourceDocumentName>
                             <sourceDirectory>${basedir}/docs/</sourceDirectory>
                             <outputDirectory>${basedir}/docs/generated-html</outputDirectory>
                             <backend>html</backend>
