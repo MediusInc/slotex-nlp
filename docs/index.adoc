@@ -7,7 +7,7 @@
 :imagesdir: images
 
 
-Is a main SloTex NLP project, which joins all project modules and also include
+Is a main SloTex NLP project, which joins all project modules and also includes
 project user and developer documentation, project's web page, and all other
 necessary info to use or contribute to SloTex NLP in your own environment. 
 
@@ -16,12 +16,12 @@ necessary info to use or contribute to SloTex NLP in your own environment.
 
 == Project goals
 
-== Project founters
+== Project founders
 
 [NOTE]
 ====
 
-**The project is founded from Slovenian PKP grand. **
+**The project is founded by Slovenian PKP grand. **
 
 ====
 
