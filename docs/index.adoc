@@ -17,7 +17,7 @@ necessary info to use or contribute to SloTex NLP in your own environment.
 == Project goals
 
 == Project founders
-Find out more about the founders link:here[http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/] 
+Find out more about the founders here[http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/].
 
 [NOTE]
 ====
