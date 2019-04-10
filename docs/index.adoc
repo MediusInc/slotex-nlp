@@ -27,7 +27,7 @@ Find out more about the founders link:http://www.sklad-kadri.si/si/razvoj-kadrov
 ====
 
 
-image::logo-pkp.png[]
+image::logo-pkp.jpg[]
 
 image::logo-mizs.jpg[]
 
