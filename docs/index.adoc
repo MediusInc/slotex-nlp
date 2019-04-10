@@ -13,8 +13,34 @@ necessary info to use or contribute to SloTex NLP in your own environment.
 
 
 == Project details
+SloTex is a project under which Slovene language-technology solutions for the use in business information systems will be developed.
+
+image::calendar.png[40,40]
+
+The project started in February 2019 and will be completed by July 2019.
+
+On this website, you can always track our progress. We will do our best to keep you updated about the project process.
+
 
 == Project goals
+High-tech companies nowadays use language technologies in business environments. Language technologies are embedded in aplications that enable the processing of large amount of data.
+Today, there are many open source frameworks on the market that enable the use of language technologies for many languages.
+Since Slovene has a relatively small number of speakers and consequently lower market relevance, it is often neglected.
+
+Our goal is to transfer know-how for application development, which includes several open-source frameworks of language technologies,
+and the adaptation of these technologies for the Slovene language.
+
+World-famous open source software tools and frameworks will be used in our project, with the goal to develop an application for Slovene intended
+for both linguists as well as anyone else who is interested in information extraction from a written text.
+The application for business applications developed in this project will enable users to use advanced neutral language modeling in Slovene and English within
+open source frameworks that enable machine learning of models in Slovenian texts for the purposes of:
+
+* language detection,
+* sentence recognition,
+* morphological tagging,
+* lemmatization,
+* syntax parser and
+* entity recognition.
 
 == Project founders
 Find out more about the founders link:http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/[here].
@@ -27,17 +53,17 @@ Find out more about the founders link:http://www.sklad-kadri.si/si/razvoj-kadrov
 ====
 
 
-image::logo-pkp.jpg[]
+image::logo-pkp.jpg[160, 160]
 
-image::logo-mizs.jpg[]
+image::logo-mizs.jpg[160,160]
 
 == Project contributors
 
-image::logo.png[]
+image::logo.png[160,160]
 
-image::logo-fe.png[]
+image::logo-fe.png[160,160]
 
-image::logo-fri.png[]
+image::logo-fri.png[160,160]
 
-image:logo-ff.png[]
+image:logo-ff.png[160,160]
 
