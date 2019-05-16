@@ -40,7 +40,43 @@ open source frameworks that enable machine learning of models in Slovenian texts
 * morphological tagging,
 * lemmatization,
 * syntax parser and
-* entity recognition.
+* named entity recognition.
+
+= Named entity recognition
+Our priority and the first task was to develope a named entity recognition tool that could be used for commercial purposes.
+Named entity recognition (NER) also known as entity indentification or entity extraction is a subtask of information extraction that locates and classifies named entities from texts. Currently, there are many defined catogories
+of named entites, such as person names, organizations, locations.
+In our project, we used Apache openNLP, a machine learning based toolkit for the processing of natural language. It supports most common NLP tasks, such as tokenization,
+sentence segmentation, part-of-speech tagging and named entity recognition.
+Slovene is inflectionaly rich language, meaning that the form of names changes is every case. Since there are
+six cases in Slovene (nominative, genitive, dative, accusative, locative and instrumental), each named entity can appear in at least six forms.
+
+This can be seen in the following example. According to the Statistical Office of the Republic of Slovenia, the most common name in Slovenia in the year 2018 was Franc.
+So, let's take "Franc", the most common masculine name, to show how this named entity changes in all the cases.
+
+Nominative = Franc
+
+Genitive = Franca
+
+Dative = Francu
+
+Accusative = Franca
+
+Locative = Francu
+
+Instrumental = Francem
+
+As you can see, the form of the entity is in almost all cases different. This is what makes NER for Slovene a bit harder, since other languages, such as English or German, do not
+know inflectional forms of names.
+However, these are not the only inflectional forms of the name Franc.
+There are also six forms in dual and 6 other forms in plural.
+Altogether, there are 18 inflectional forms of a single named entity in Slovene language.
+
+All forms of the name Franc can be seen in the following table.
+
+image::Franc_inflections.png[,]
+
+
 
 == Project founders
 
