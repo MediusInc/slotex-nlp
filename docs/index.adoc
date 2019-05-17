@@ -41,7 +41,7 @@ open source frameworks that enable machine learning of models in Slovenian texts
 * syntax parser and
 * named entity recognition.
 
-= Named entity recognition
+== Named entity recognition
 Our priority and the first task was to develope a named entity recognition tool that could be used for commercial purposes.
 Named entity recognition (NER) also known as entity indentification or entity extraction is a subtask of information extraction that locates and classifies named entities from texts. Currently, there are many defined catogories
 of named entites, such as person names, organizations, locations.
@@ -77,16 +77,11 @@ All forms of the name Franc can be seen in the following table.
 
 image::Franc_inflections.png[,]
 
-<<<<<<< Updated upstream
-=======
 So one of the core problems of NER tool development was to learn the tool to recognize
 also inflectional forms of names as named entities.
 
 = External knowledge resources
 
-
-
->>>>>>> Stashed changes
 == Project founders
 
 The program PKP or Po kreativni poti do praktičnega znanja or Taking a creative path to practical knowledge connects universities and commercial partners and thus allows students to gain experience in the field, additional knowledge and abilities which are increasingly more important when entering a job market and starting a career. Students research creative and innovative solutions to challenges posed by the economy and society. 
