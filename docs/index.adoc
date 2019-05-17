@@ -21,7 +21,6 @@ The project started in February 2019 and will be completed by July 2019.
 
 On this website, you can always track our progress. We will do our best to keep you updated about the project progress.
 
-
 == Project goals
 High-tech companies nowadays use language technologies in business environments. Language technologies are embedded in aplications that enable the processing of large amount of data.
 Today, there are many open source frameworks on the market that enable the use of language technologies for many languages.
@@ -76,19 +75,14 @@ All forms of the name Franc can be seen in the following table.
 
 image::Franc_inflections.png[,]
 
-
-
 == Project founders
 
 The program PKP or Po kreativni poti do praktičnega znanja or Taking a creative path to practical knowledge connects universities and commercial partners and thus allows students to gain experience in the field, additional knowledge and abilities which are increasingly more important when entering a job market and starting a career. Students research creative and innovative solutions to challenges posed by the economy and society. 
 The program cofinances projects lasting from 3 to 5 months that include 4 to 8 students and their mentors.
 SloTex is one of 133 projects participating in the second opening of the project between the years of 2017 and 2020.
 
+
 Find out more about the founders link:http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/[here].
-
-
-
-
 
 image::logo-pkp.jpg[160, 160]
 
