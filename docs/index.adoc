@@ -47,7 +47,9 @@ Named entity recognition (NER) also known as entity indentification or entity ex
 of named entites, such as person names, organizations, locations.
 In our project, we used Apache openNLP, a machine learning based toolkit for the processing of natural language. It supports most common NLP tasks, such as tokenization,
 sentence segmentation, part-of-speech tagging and named entity recognition.
-Slovene is inflectionaly rich language, meaning that the form of names changes is every case. Since there are
+
+= Named entity recognition for Slovene - problems and chanllenges
+Slovene is inflectionally rich language, meaning that the form of names changes is every case. Since there are
 six cases in Slovene (nominative, genitive, dative, accusative, locative and instrumental), each named entity can appear in at least six forms.
 
 This can be seen in the following example. According to the Statistical Office of the Republic of Slovenia, the most common name in Slovenia in the year 2018 was Franc.
@@ -75,6 +77,16 @@ All forms of the name Franc can be seen in the following table.
 
 image::Franc_inflections.png[,]
 
+<<<<<<< Updated upstream
+=======
+So one of the core problems of NER tool development was to learn the tool to recognize
+also inflectional forms of names as named entities.
+
+= External knowledge resources
+
+
+
+>>>>>>> Stashed changes
 == Project founders
 
 The program PKP or Po kreativni poti do praktičnega znanja or Taking a creative path to practical knowledge connects universities and commercial partners and thus allows students to gain experience in the field, additional knowledge and abilities which are increasingly more important when entering a job market and starting a career. Students research creative and innovative solutions to challenges posed by the economy and society. 
