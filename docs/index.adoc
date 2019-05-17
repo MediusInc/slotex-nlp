@@ -3,11 +3,11 @@
 :toc: left
 :sectnums:
 :source-highlighter: prettify
-:favicon: images/favicon.ico
 :imagesdir: images
+:icons: font
 
 
-Is a main SloTex NLP project, which joins all project modules and also includes
+This is the main SloTex NLP project which joins all project modules and also includes
 project user and developer documentation, project's web page, and all other
 necessary info to use or contribute to SloTex NLP in your own environment. 
 
@@ -19,8 +19,7 @@ image::calendar.png[40,40]
 
 The project started in February 2019 and will be completed by July 2019.
 
-On this website, you can always track our progress. We will do our best to keep you updated about the project process.
-
+On this website, you can always track our progress. We will do our best to keep you updated about the project progress.
 
 == Project goals
 High-tech companies nowadays use language technologies in business environments. Language technologies are embedded in aplications that enable the processing of large amount of data.
@@ -40,24 +39,57 @@ open source frameworks that enable machine learning of models in Slovenian texts
 * morphological tagging,
 * lemmatization,
 * syntax parser and
-* entity recognition.
+* named entity recognition.
+
+= Named entity recognition
+Our priority and the first task was to develope a named entity recognition tool that could be used for commercial purposes.
+Named entity recognition (NER) also known as entity indentification or entity extraction is a subtask of information extraction that locates and classifies named entities from texts. Currently, there are many defined catogories
+of named entites, such as person names, organizations, locations.
+In our project, we used Apache openNLP, a machine learning based toolkit for the processing of natural language. It supports most common NLP tasks, such as tokenization,
+sentence segmentation, part-of-speech tagging and named entity recognition.
+Slovene is inflectionaly rich language, meaning that the form of names changes is every case. Since there are
+six cases in Slovene (nominative, genitive, dative, accusative, locative and instrumental), each named entity can appear in at least six forms.
+
+This can be seen in the following example. According to the Statistical Office of the Republic of Slovenia, the most common name in Slovenia in the year 2018 was Franc.
+So, let's take "Franc", the most common masculine name, to show how this named entity changes in all the cases.
+
+Nominative = Franc
+
+Genitive = Franca
+
+Dative = Francu
+
+Accusative = Franca
+
+Locative = Francu
+
+Instrumental = Francem
+
+As you can see, the form of the entity is in almost all cases different. This is what makes NER for Slovene a bit harder, since other languages, such as English or German, do not
+know inflectional forms of names.
+However, these are not the only inflectional forms of the name Franc.
+There are also six forms in dual and 6 other forms in plural.
+Altogether, there are 18 inflectional forms of a single named entity in Slovene language.
+
+All forms of the name Franc can be seen in the following table.
+
+image::Franc_inflections.png[,]
 
 == Project founders
+
+The program PKP or Po kreativni poti do praktičnega znanja or Taking a creative path to practical knowledge connects universities and commercial partners and thus allows students to gain experience in the field, additional knowledge and abilities which are increasingly more important when entering a job market and starting a career. Students research creative and innovative solutions to challenges posed by the economy and society. 
+The program cofinances projects lasting from 3 to 5 months that include 4 to 8 students and their mentors.
+SloTex is one of 133 projects participating in the second opening of the project between the years of 2017 and 2020.
+
+
 Find out more about the founders link:http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/[here].
-
-[NOTE]
-====
-
-**The project is founded by Slovenian PKP grand. **
-
-====
-
 
 image::logo-pkp.jpg[160, 160]
 
 image::logo-mizs.jpg[160,160]
 
 == Project contributors
+SloTex is a collaboration project between the corporate partner Medius and three faculties of University of Ljubljana: Faculty of Electrical Engineering, Faculty of Computer and Information Science and Faculty of Arts.
 
 image::logo.png[160,160]
 
