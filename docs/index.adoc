@@ -33,11 +33,11 @@ image::logo-mizs.jpg[]
 
 == Project contributors
 
-image::logo.png[]
+image::logo.png[MEDIUS]
 
-image::logo-fe.png[]
+image::logo-fe.png[Fakulteta za elektrotehniko]
 
-image::logo-fri.png[]
+image::logo-fri.jpg[Fakulteta za računalništvo in informatiko]
 
-image:logo-ff.png[]
+image:logo-ff.png[Filozofska fakulteta]
 
