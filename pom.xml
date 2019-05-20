@@ -8,11 +8,17 @@
     <artifactId>slotex-nlp</artifactId>
     <url>https://github.com/MediusInc/slotex-nlp</url>
     <name>SloTex NLP - Medius d.o.o.</name>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <organization>
         <name>SloTex NLP</name>
     </organization>
-
+    
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
