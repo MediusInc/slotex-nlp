@@ -41,7 +41,11 @@ open source frameworks that enable machine learning of models in Slovenian texts
 * syntax parser and
 * named entity recognition.
 
+<<<<<<< HEAD
 === Named entity recognition
+=======
+= Named entity recognition
+>>>>>>> upstream/master
 Our priority and the first task was to develope a named entity recognition tool that could be used for commercial purposes.
 Named entity recognition (NER) also known as entity indentification or entity extraction is a subtask of information extraction that locates and classifies named entities from texts. Currently, there are many defined catogories
 of named entites, such as person names, organizations, locations.
@@ -60,6 +64,7 @@ Genitive = Franca
 Dative = Francu
 
 Accusative = Franca
+<<<<<<< HEAD
 
 Locative = Francu
 
@@ -73,6 +78,21 @@ Altogether, there are 18 inflectional forms of a single named entity in Slovene 
 
 All forms of the name Franc can be seen in the following table.
 
+=======
+
+Locative = Francu
+
+Instrumental = Francem
+
+As you can see, the form of the entity is in almost all cases different. This is what makes NER for Slovene a bit harder, since other languages, such as English or German, do not
+know inflectional forms of names.
+However, these are not the only inflectional forms of the name Franc.
+There are also six forms in dual and 6 other forms in plural.
+Altogether, there are 18 inflectional forms of a single named entity in Slovene language.
+
+All forms of the name Franc can be seen in the following table.
+
+>>>>>>> upstream/master
 image::Franc_inflections.png[,]
 
 == Project founders
@@ -90,6 +110,7 @@ image::logo-mizs.jpg[160,160]
 
 == Project contributors
 SloTex is a collaboration project between the corporate partner Medius and three faculties of University of Ljubljana: Faculty of Electrical Engineering, Faculty of Computer and Information Science and Faculty of Arts.
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 image::logo.png[MEDIUS]
@@ -97,6 +118,8 @@ image::logo.png[MEDIUS]
 image::logo-fe.png[Fakulteta za elektrotehniko]
 
 image::logo-fri.jpg[Fakulteta za računalništvo in informatiko]
+=======
+>>>>>>> upstream/master
 
 image:logo-ff.png[Filozofska fakulteta]
 =======
