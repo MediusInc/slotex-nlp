@@ -41,7 +41,7 @@ open source frameworks that enable machine learning of models in Slovenian texts
 * syntax parser and
 * named entity recognition.
 
-= Named entity recognition
+=== Named entity recognition
 Our priority and the first task was to develope a named entity recognition tool that could be used for commercial purposes.
 Named entity recognition (NER) also known as entity indentification or entity extraction is a subtask of information extraction that locates and classifies named entities from texts. Currently, there are many defined catogories
 of named entites, such as person names, organizations, locations.
