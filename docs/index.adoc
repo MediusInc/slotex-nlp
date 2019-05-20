@@ -24,7 +24,7 @@ On this website, you can always track our progress. We will do our best to keep 
 
 == Project goals
 High-tech companies nowadays use language technologies in business environments. Language technologies are embedded in
-aplications that enable the processing of large amount of data.
+applications that enable the processing of large amount of data.
 Today, there are many open source frameworks on the market that enable the use of language technologies for many languages.
 Since Slovene has a relatively small number of speakers and consequently lower market relevance, it is often neglected.
 
@@ -47,15 +47,15 @@ open source frameworks that enable machine learning of models in Slovenian texts
 * named entity recognition.
 
 === Named entity recognition
-Our priority and the first task was to develope a named entity recognition tool that could be used for commercial purposes.
-Named entity recognition (NER) also known as entity indentification or entity extraction is a subtask of information extraction that locates and classifies named entities from texts. Currently, there are many defined catogories
+Our priority and the first task was to develop a named entity recognition tool that could be used for commercial purposes.
+Named entity recognition (NER) also known as entity identification or entity extraction is a subtask of information extraction that locates and classifies named entities from texts. Currently, there are many defined catogories
 of named entites, such as person names, organizations, locations.
 In our project, we used Apache openNLP, a machine learning based toolkit for the processing of natural language.
 It supports most common NLP tasks, such as tokenization,
 sentence segmentation, part-of-speech tagging and named entity recognition.
 
-== Named entity recognition for Slovene - problems and chanllenges
-Slovene is inflectionally rich language, meaning that the form of names changes is every case. Since there are
+== Named entity recognition for Slovene - problems and challenges
+Slovene is intentionally rich language, meaning that the form of names changes is every case. Since there are
 six cases in Slovene (nominative, genitive, dative, accusative, locative and instrumental), each named entity can appear
  in at least six forms.
 
