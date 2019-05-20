@@ -85,7 +85,17 @@ Altogether, there are 18 inflectional forms of a single named entity in Slovene 
 
 All forms of the name Franc can be seen in the following table.
 
-image::Franc_inflections.png[,]
+.Inflections in Slovene
+|===
+|Case|Singular|Dual|Plural
+|Nominative|Franc|Franca|Franci
+|Genitive|Franca|Francev|Francev
+|Dative|Francu|Francema|Francem
+|Accusative|Franca|Franca|France
+|Locative|Francu|Francih|Francih
+|Instrumental|Francem|Francema|Franci
+|===
+
 
 So one of the core problems of NER tool development was to learn the tool to recognize
 also inflectional forms of names as named entities.
