@@ -102,6 +102,58 @@ So one of the core problems of NER tool development was to learn the tool to rec
 also inflectional forms of names as named entities.
 
 == External knowledge resources
+Named entity recognition should be trained on corpus or on a large text database. For that purposes we built
+a corpora, data for which were taken from the website link:http://lit.ijs.si/leposl.html[Slovene literature online].
+Here you can find collected Slovene literature works online. You can search and read works, written by famous Slovene
+writers and poets, such as link:https://en.wikipedia.org/wiki/Valentin_Vodnik[Valentin Vodnik],
+link:https://en.wikipedia.org/wiki/France_Pre%C5%A1eren[France Prešeren],
+ link:https://en.wikipedia.org/wiki/Fran_Levstik[Fran Levstik] and many others.
+ Our corpora contains 109.193‬ sentences and approximately 1,200,000 words.
+
+[red]#Normalization#
+
+The second step was text normalization. This is a process that converts a list of words to a more uniform sequence.
+ This step is very useful for later text processing and for easier and quicker searching process.
+
+First, we extracted all abbreviations, such as "itd." (ect) and npr. (e.g.). All together, we defined 995 abbreviations
+ that needed to be extracted. The list of all abbreviations can be found on
+ link:https://github.com/aljaz-trebusak/ApacheOpenNLP-SloTex/tree/master/Documents/resources[GitHub].
+
+[red]#Levenshtein#
+
+In order to improve our model, we applied the method based on Levenshtein distance.
+Levenshtein's Edit Distance algorithm is frequently used to calculate the edit distance between any two strings in the
+same language. In our project, we used it to measure the distance between lemmas of named entities and their
+non-lemma forms. Under non-lemma forms of Slovene named entities, we understand nouns and possessive adjectives
+that are inflected. Meaning, the Levenshtein distance is actually the number of single-character edits between the words,
+ in our case between lemmas and inflectional forms. As a single-character edit we understand every insertion, deletion
+ or substitution that ist required to change the inflectional form into lemma or vice versa.
+With Levenshtein distance, we trained our model to measeure if two entities that are written in different
+cases are actually the same named entity.
+
+For example, with Levenshtein distance, we trained our model to recognize the entity "Markov" as the inflectional form of
+the name "Marko".
+
+An examle that features the comparison of "Marko" and "Markov" can be seen in the next table:
+
+.Inflections in Slovene
+|===
+|Case|Singular|Dual|Plural
+|Nominative|Franc|Franca|Franci
+|Genitive|Franca|Francev|Francev
+|Dative|Francu|Francema|Francem
+|Accusative|Franca|Franca|France
+|Locative|Francu|Francih|Francih
+|Instrumental|Francem|Francema|Franci
+|===
+
+Our model was trained to recognize two entities as the same word in different cases
+if the distance between them was lower than xy.
+
+
+
+For the project we used database of Slovene names that we got on the website of link:https://www.stat.si/statweb/en[the
+Statistical Office of the Republic of Slovenia].
 
 == Project founders
 
