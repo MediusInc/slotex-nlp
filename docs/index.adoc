@@ -102,6 +102,7 @@ So one of the core problems of NER tool development was to learn the tool to rec
 also inflectional forms of names as named entities.
 
 == External knowledge resources
+
 Named entity recognition should be trained on corpus or on a large text database. For that purposes we built
 a corpora, data for which were taken from the website link:http://lit.ijs.si/leposl.html[Slovene literature online].
 Here you can find collected Slovene literature works online. You can search and read works, written by famous Slovene
