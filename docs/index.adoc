@@ -119,7 +119,7 @@ First, we extracted all abbreviations, such as "itd." (ect) and npr. (e.g.). All
  that needed to be extracted. The list of all abbreviations can be found on
  link:https://github.com/aljaz-trebusak/ApacheOpenNLP-SloTex/tree/master/Documents/resources[GitHub].
 
-[red]#Levenshtein#
+[red]#Levenshtein distance#
 
 In order to improve our model, we applied the method based on Levenshtein distance.
 Levenshtein's Edit Distance algorithm is frequently used to calculate the edit distance between any two strings in the
