@@ -121,10 +121,11 @@ First, we extracted all abbreviations, such as "itd." (ect) and npr. (e.g.). All
  link:https://github.com/aljaz-trebusak/ApacheOpenNLP-SloTex/tree/master/Documents/resources[GitHub].
 
 [red]#Part-of-speech tagging#
+
 POS tagging or part-of-speech tagging is the process of describing a word in a text with its word class and other attributes.
 Our project uses the specifications of the project MULTEXT-East which account for 1902 different tags and are available both in Slovene and in English.
 The tags or morphosyntactic descriptions are composed of 5-7 characters, each representing a different attribute.
-For example: "Janez" is a noun, proper, masculine, singular and in nominative case. Its tag is NPMSN (od SLMEI in Slovene)
+For example: "Janez" is a noun, proper, masculine, singular and in nominative case. Its tag is NPMSN.
  "Janezov" is an adjective, possessive, of a positive degree, masculine, singular and in nominative case. Its tag is ASPMSN.
 
 .POS tag for Janez
