@@ -120,6 +120,29 @@ First, we extracted all abbreviations, such as "itd." (ect) and npr. (e.g.). All
  that needed to be extracted. The list of all abbreviations can be found on
  link:https://github.com/aljaz-trebusak/ApacheOpenNLP-SloTex/tree/master/Documents/resources[GitHub].
 
+[red]#Part-of-speech tagging#
+POS tagging or part-of-speech tagging is the process of describing a word in a text with its word class and other attributes.
+Our project uses the specifications of the project MULTEXT-East which account for 1902 different tags and are available both in Slovene and in English.
+The tags or morphosyntactic descriptions are composed of 5-7 characters, each representing a different attribute.
+For example: "Janez" is a noun, proper, masculine, singular and in nominative case. Its tag is NPMSN (od SLMEI in Slovene)
+ "Janezov" is an adjective, possessive, of a positive degree, masculine, singular and in nominative case. Its tag is ASPMSN.
+
+.POS tag for Janez
+|===
+ |category|noun|N
+ |type|proper|P
+ |gender|masculine|M
+ |number|singular|S
+ |case|nominative|N
+|===
+
+POS tagging for Slovene is difficult due to many different tags. Slovene has 1902 different tags while English has less than a 100. Another difficulty are different forms of words which are tagged differently often appear the same.
+For example:
+"Marije" could be the nominative case plural of "Marija" or dative case plural or it could be the genitive case singular. It could thus be represented by each of these tags: NPFPN, NPFPD or NPFSG.
+This problem can be solved using the probability of each tag occurring, but with as many tags as Slovene has, that strategy is not accurate enough. The context of the word becomes more important in determining the correct tag.
+In our project we used POS tagging to facilitate named entity recognition. Focusing on names, the large majority fall within a few categories, so we can limit our search to just those categories. We can roughly disregard anything that is not a proper noun (tags beginning with NP) or a possessive adjective (tags beginning with AS).
+
+
 [red]#Levenshtein distance#
 
 In order to improve our model, we applied the method based on Levenshtein distance.
