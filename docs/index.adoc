@@ -1,5 +1,4 @@
 = SloTex NLP
-:revremark: Initial version
 :toc: left
 :sectnums:
 :source-highlighter: prettify
@@ -7,37 +6,38 @@
 :icons: font
 
 
-This is the main SloTex NLP project which joins all project modules and also includes
-project user and developer documentation, project's web page, and all other
-necessary info to use or contribute to SloTex NLP in your own environment. 
-
+SloTex NLP project oins all project modules and also includes project
+documentation. This documentation is rendered on http://slotex.si project's web
+page.
 
 == Project details
-SloTex is a project under which Slovene language-technology solutions for the use in business information systems will
-be developed.
-
-image::calendar.png[40,40]
+SloTex is a project under which Slovene language-technology solutions for the
+use in business information systems will be developed.
 
 The project started in February 2019 and will be completed by July 2019.
 
-On this website, you can always track our progress. We will do our best to keep you updated about the project progress.
+On this website, you can always track our progress. We will do our best to keep
+you updated about the project progress.
 
 == Project goals
-High-tech companies nowadays use language technologies in business environments. Language technologies are embedded in
-applications that enable the processing of large amount of data.
-Today, there are many open source frameworks on the market that enable the use of language technologies for many languages.
-Since Slovene has a relatively small number of speakers and consequently lower market relevance, it is often neglected.
+High-tech companies nowadays use language technologies in business
+environments. Language technologies are embedded in applications that enable
+the processing of large amount of data.  Today, there are many open source
+frameworks on the market that enable the use of language technologies for many
+languages.  Since Slovene has a relatively small number of speakers and
+consequently lower market relevance, it is often neglected.
 
-Our goal is to transfer know-how for application development, which includes several open-source frameworks of language
-technologies,
-and the adaptation of these technologies for the Slovene language.
+Our goal is to transfer know-how for application development, which includes
+several open-source frameworks of language technologies, and the adaptation of
+these technologies for the Slovene language.
 
-World-famous open source software tools and frameworks will be used in our project, with the goal to develop an
- application for Slovene intended
-for both linguists as well as anyone else who is interested in information extraction from a written text.
-The application for business applications developed in this project will enable users to use advanced neutral language
-modeling in Slovene and English within
-open source frameworks that enable machine learning of models in Slovenian texts for the purposes of:
+World-famous open source software tools and frameworks will be used in our
+project, with the goal to develop an application for Slovene intended for both
+linguists as well as anyone else who is interested in information extraction
+from a written text.  The application for business applications developed in
+this project will enable users to use advanced neutral language modeling in
+Slovene and English within open source frameworks that enable machine learning
+of models in Slovenian texts for the purposes of:
 
 * language detection,
 * sentence recognition,
@@ -48,22 +48,28 @@ open source frameworks that enable machine learning of models in Slovenian texts
 
 === Named entity recognition
 
-Our priority and the first task was to develop a named entity recognition tool that could be used for commercial purposes.
-Named entity recognition (NER) also known as entity identification or entity extraction is a subtask of information extraction that locates and classifies named entities from texts. Currently, there are many defined catogories
-of named entites, such as person names, organizations, locations.
-In our project, we used Apache openNLP, a machine learning based toolkit for the processing of natural language.
-It supports most common NLP tasks, such as tokenization,
-sentence segmentation, part-of-speech tagging and named entity recognition.
+Our priority and the first task was to develop a named entity recognition tool
+that could be used for commercial purposes.  Named entity recognition (NER)
+also known as entity identification or entity extraction is a subtask of
+information extraction that locates and classifies named entities from texts.
+Currently, there are many defined catogories of named entites, such as person
+names, organizations, locations.  In our project, we used Apache openNLP, a
+machine learning based toolkit for the processing of natural language.  It
+supports most common NLP tasks, such as tokenization, sentence segmentation,
+part-of-speech tagging and named entity recognition.
 
 == Named entity recognition for Slovene - problems and challenges
-Slovene is intentionally rich language, meaning that the form of names changes is every case. Since there are
-six cases in Slovene (nominative, genitive, dative, accusative, locative and instrumental), each named entity can appear
- in at least six forms.
+Slovene is intentionally rich language, meaning that the form of names changes
+is every case. Since there are six cases in Slovene (nominative, genitive,
+dative, accusative, locative and instrumental), each named entity can appear in
+at least six forms.
 
-This can be seen in the following example. According to the Statistical Office of the Republic of Slovenia,
-the most common name in Slovenia in the year 2018 was Franc.
+This can be seen in the following example. According to the Statistical Office
+of the Republic of Slovenia, the most common name in Slovenia in the year 2018
+was Franc.
 
-So, let's take "Franc", the most common masculine name, to show how this named entity changes in all the cases.
+So, let's take "Franc", the most common masculine name, to show how this named
+entity changes in all the cases.
 
 Nominative = Franc
 
@@ -77,12 +83,12 @@ Locative = Francu
 
 Instrumental = Francem
 
-As you can see, the form of the entity is in almost all cases different. This is what makes NER for Slovene a bit harder,
- since other languages, such as English or German, do not
-know inflectional forms of names.
-However, these are not the only inflectional forms of the name Franc.
-There are also six forms in dual and 6 other forms in plural.
-Altogether, there are 18 inflectional forms of a single named entity in Slovene language.
+As you can see, the form of the entity is in almost all cases different. This
+is what makes NER for Slovene a bit harder, since other languages, such as
+English or German, do not know inflectional forms of names.  However, these are
+not the only inflectional forms of the name Franc.  There are also six forms in
+dual and 6 other forms in plural.  Altogether, there are 18 inflectional forms
+of a single named entity in Slovene language.
 
 All forms of the name Franc can be seen in the following table.
 
@@ -103,30 +109,38 @@ also inflectional forms of names as named entities.
 
 == External knowledge resources
 
-Named entity recognition should be trained on corpus or on a large text database. For that purposes we built
-a corpora, data for which were taken from the website link:http://lit.ijs.si/leposl.html[Slovene literature online].
-Here you can find collected Slovene literature works online. You can search and read works, written by famous Slovene
-writers and poets, such as link:https://en.wikipedia.org/wiki/Valentin_Vodnik[Valentin Vodnik],
+Named entity recognition should be trained on corpus or on a large text
+database. For that purposes we built a corpora, data for which were taken from
+the website link:http://lit.ijs.si/leposl.html[Slovene literature online].
+Here you can find collected Slovene literature works online. You can search and
+read works, written by famous Slovene writers and poets, such as
+link:https://en.wikipedia.org/wiki/Valentin_Vodnik[Valentin Vodnik],
 link:https://en.wikipedia.org/wiki/France_Pre%C5%A1eren[France Prešeren],
- link:https://en.wikipedia.org/wiki/Fran_Levstik[Fran Levstik] and many others.
- Our corpora contains 109.193‬ sentences and approximately 1,200,000 words.
+link:https://en.wikipedia.org/wiki/Fran_Levstik[Fran Levstik] and many others.
+Our corpora contains 109.193‬ sentences and approximately 1,200,000 words.
 
 [red]#Normalization#
 
-The second step was text normalization. This is a process that converts a list of words to a more uniform sequence.
- This step is very useful for later text processing and for easier and quicker searching process.
+The second step was text normalization. This is a process that converts a list
+of words to a more uniform sequence.  This step is very useful for later text
+processing and for easier and quicker searching process.
 
-First, we extracted all abbreviations, such as "itd." (ect) and npr. (e.g.). All together, we defined 995 abbreviations
- that needed to be extracted. The list of all abbreviations can be found on
- link:https://github.com/aljaz-trebusak/ApacheOpenNLP-SloTex/tree/master/Documents/resources[GitHub].
+First, we extracted all abbreviations, such as "itd." (ect) and npr. (e.g.).
+All together, we defined 995 abbreviations that needed to be extracted. The
+list of all abbreviations can be found on
+link:https://github.com/aljaz-trebusak/ApacheOpenNLP-SloTex/tree/master/Documents/resources[GitHub].
 
 [red]#Part-of-speech tagging#
 
-POS tagging or part-of-speech tagging is the process of describing a word in a text with its word class and other attributes.
-Our project uses the specifications of the project MULTEXT-East which account for 1902 different tags and are available both in Slovene and in English.
-The tags or morphosyntactic descriptions are composed of 5-7 characters, each representing a different attribute.
-For example: "Janez" is a noun, proper, masculine, singular and in nominative case. Its tag is NPMSN.
- "Janezov" is an adjective, possessive, of a positive degree, masculine, singular and in nominative case. Its tag is ASPMSN.
+POS tagging or part-of-speech tagging is the process of describing a word in a
+text with its word class and other attributes.  Our project uses the
+specifications of the project MULTEXT-East which account for 1902 different
+tags and are available both in Slovene and in English.  The tags or
+morphosyntactic descriptions are composed of 5-7 characters, each representing
+a different attribute.  For example: "Janez" is a noun, proper, masculine,
+singular and in nominative case. Its tag is NPMSN.  "Janezov" is an adjective,
+possessive, of a positive degree, masculine, singular and in nominative case.
+Its tag is ASPMSN.
 
 .POS tag for Janez
 |===
@@ -137,29 +151,40 @@ For example: "Janez" is a noun, proper, masculine, singular and in nominative ca
  |case|nominative|N
 |===
 
-POS tagging for Slovene is difficult due to many different tags. Slovene has 1902 different tags while English has less than a 100. Another difficulty are different forms of words which are tagged differently often appear the same.
-For example:
-"Marije" could be the nominative case plural of "Marija" or dative case plural or it could be the genitive case singular. It could thus be represented by each of these tags: NPFPN, NPFPD or NPFSG.
-This problem can be solved using the probability of each tag occurring, but with as many tags as Slovene has, that strategy is not accurate enough. The context of the word becomes more important in determining the correct tag.
-In our project we used POS tagging to facilitate named entity recognition. Focusing on names, the large majority fall within a few categories, so we can limit our search to just those categories. We can roughly disregard anything that is not a proper noun (tags beginning with NP) or a possessive adjective (tags beginning with AS).
-
+POS tagging for Slovene is difficult due to many different tags. Slovene has
+1902 different tags while English has less than a 100. Another difficulty are
+different forms of words which are tagged differently often appear the same.
+For example: "Marije" could be the nominative case plural of "Marija" or dative
+case plural or it could be the genitive case singular. It could thus be
+represented by each of these tags: NPFPN, NPFPD or NPFSG.  This problem can be
+solved using the probability of each tag occurring, but with as many tags as
+Slovene has, that strategy is not accurate enough. The context of the word
+becomes more important in determining the correct tag.  In our project we used
+POS tagging to facilitate named entity recognition. Focusing on names, the
+large majority fall within a few categories, so we can limit our search to just
+those categories. We can roughly disregard anything that is not a proper noun
+(tags beginning with NP) or a possessive adjective (tags beginning with AS).
 
 [red]#Levenshtein distance#
 
-In order to improve our model, we applied the method based on Levenshtein distance.
-Levenshtein's Edit Distance algorithm is frequently used to calculate the edit distance between any two strings in the
-same language. In our project, we used it to measure the distance between lemmas of named entities and their
-non-lemma forms. Under non-lemma forms of Slovene named entities, we understand nouns and possessive adjectives
-that are inflected. Meaning, the Levenshtein distance is actually the number of single-character edits between the words,
- in our case between lemmas and inflectional forms. As a single-character edit we understand every insertion, deletion
- or substitution that ist required to change the inflectional form into lemma or vice versa.
-With Levenshtein distance, we trained our model to measeure if two entities that are written in different
-cases are actually the same named entity.
+In order to improve our model, we applied the method based on Levenshtein
+distance.  Levenshtein's Edit Distance algorithm is frequently used to
+calculate the edit distance between any two strings in the same language. In
+our project, we used it to measure the distance between lemmas of named
+entities and their non-lemma forms. Under non-lemma forms of Slovene named
+entities, we understand nouns and possessive adjectives that are inflected.
+Meaning, the Levenshtein distance is actually the number of single-character
+edits between the words, in our case between lemmas and inflectional forms. As
+a single-character edit we understand every insertion, deletion or substitution
+that ist required to change the inflectional form into lemma or vice versa.
+With Levenshtein distance, we trained our model to measeure if two entities
+that are written in different cases are actually the same named entity.
 
-For example, with Levenshtein distance, we trained our model to recognize the entity "Markov" as the inflectional form of
-the name "Marko".
+For example, with Levenshtein distance, we trained our model to recognize the
+entity "Markov" as the inflectional form of the name "Marko".
 
-An examle that features the comparison of "Marko" and "Markov" can be seen in the next table:
+An examle that features the comparison of "Marko" and "Markov" can be seen in
+the next table:
 
 .Levenshtein distance example
 |===
@@ -174,38 +199,41 @@ An examle that features the comparison of "Marko" and "Markov" can be seen in th
 
 |===
 
-Our model was trained to recognize two entities as the same word in different cases
-if the distance between them was lower than 1. If the Levenshtein distance is zero, it means that the strings are equal.
+Our model was trained to recognize two entities as the same word in different
+cases if the distance between them was lower than 1. If the Levenshtein
+distance is zero, it means that the strings are equal.
 
 
-For the project we used database of Slovene names that we got on the website of link:https://www.stat.si/statweb/en[the
+For the project we used database of Slovene names that we got on the website of
+link:https://www.stat.si/statweb/en[the
 Statistical Office of the Republic of Slovenia].
 
 == Project founders
 
-The program PKP or Po kreativni poti do praktičnega znanja or Taking a creative path to practical knowledge connects
- universities and commercial partners and thus allows students to gain experience in the field, additional knowledge
- and abilities which are increasingly more important when entering a job market and starting a career. Students research
-  creative and innovative solutions to challenges posed by the economy and society.
+The program PKP or Po kreativni poti do praktičnega znanja or Taking a creative
+path to practical knowledge connects universities and commercial partners and
+thus allows students to gain experience in the field, additional knowledge and
+abilities which are increasingly more important when entering a job market and
+starting a career. Students research creative and innovative solutions to
+challenges posed by the economy and society.
 
-The program cofinances projects lasting from 3 to 5 months that include 4 to 8 students and their mentors.
-SloTex is one of 133 projects participating in the second opening of the project between the years of 2017 and 2020.
+The program cofinances projects lasting from 3 to 5 months that include 4 to 8
+students and their mentors.  SloTex is one of 133 projects participating in the
+second opening of the project between the years of 2017 and 2020.
 
-Find out more about the founders link:http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/[here].
+Find out more about the founders
+link:http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/[here].
 
-image::logo-pkp.jpg[160, 160]
+|===
+a|image::logo-sklad-kadri.jpg[link=http://www.sklad-kadri.si/, 160, 160] a|image::logo-mizs.jpg[link=https://www.gov.si/en/public-authorities/ministries/ministry-of-education-science-and-sport/, 160, 160] a|image::logo-pkp.jpg[link=http://ec.europa.eu/esf/home.jsp?langId=en, 160,160]
+|===
 
-image::logo-mizs.jpg[160,160]
+== Project members
 
-== Project contributors
-SloTex is a collaboration project between the corporate partner Medius and three faculties of University of Ljubljana:
-Faculty of Electrical Engineering, Faculty of Computer and Information Science and Faculty of Arts.
+SloTex is a collaboration project between the corporate partner Medius and
+three faculties of University of Ljubljana: Faculty of Electrical Engineering,
+Faculty of Computer and Information Science and Faculty of Arts.
 
-image::logo.png[160,160]
-
-image::logo-fe.png[160,160]
-
-image::logo-fri.png[160,160]
-
-image:logo-ff.png[160,160]
-
+|===
+a|image::logo.png[link=https://medius.si,160,160] a|image::logo-fe.png[link=https://fe.uni-lj.si,160,160] a|image::logo-fri.png[link=https://fri.uni-lj.si,160,160] a|image:logo-ff.png[link=https://ff.uni-lj.si,160,160]
+|===
