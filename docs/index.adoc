@@ -7,18 +7,32 @@
 :title-logo-image: image::slotex_logo.png[160,160] 
 :docinfo: shared
 
-SloTex NLP project oins all project modules and also includes project
+SloTex NLP project joins all project modules and also includes project
 documentation. This documentation is rendered on http://slotex.si project's web
-page.
+page, or on https://github.com/MediusInc/slotex-nlp[Github].
 
 == Project details
 SloTex is a project under which Slovene language-technology solutions for the
 use in business information systems will be developed.
 
-The project started in February 2019 and will be completed by July 2019.
+The project started in February 2019 and completed by the end of June 2019.
 
-On this website, you can always track our progress. We will do our best to keep
-you updated about the project progress.
+image:SloTex_NLP_Core.png[The scheme above represents how the different
+elements of the project interact with eachother.]
+
+SloTex project is designed as microservice-based project, which tries to
+facilitate and make robust handling of incoming data with Redis server, and
+stores processed data in MongoDB. We developed a front-end application for
+handling data and training process
+https://github.com/MediusInc/slotex-nlp-web[SloTex NLP web] project, and the
+back-end application https://github.com/MediusInc/slotex-nlp-core[SloTex NLP
+core] with exposed RESTFul web services developed with Spring Boot framework. 
+
+For testing purposes we also developed a Bash client
+https://github.com/MediusInc/slotex-nlp-pwc[SloTex NLP pwc] , which allows us
+to send multiple documents in `.txt` or `.doc` format to the Redis queue and
+allows us to initialize the training process and also other test scenario's. 
+
 
 == Project goals
 High-tech companies nowadays use language technologies in business
