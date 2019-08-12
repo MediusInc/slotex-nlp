@@ -1,10 +1,6 @@
-= SloTex NLP
+= image:slotex_logo.png[Logo,height=65px] 
 :toc: left
-:sectnums:
-:source-highlighter: prettify
 :imagesdir: images
-:icons: font
-:title-logo-image: image::slotex_logo.png[160,160] 
 :docinfo: shared
 
 SloTex NLP project joins all project modules and also includes project
@@ -15,7 +11,7 @@ page, or on https://github.com/MediusInc/slotex-nlp[Github].
 SloTex is a project under which Slovene language-technology solutions for the
 use in business information systems will be developed.
 
-The project started in February 2019 and completed by the end of June 2019.
+The project started in February 2019 and it was completed the end of June 2019.
 
 image:SloTex_NLP_Core.png[The scheme above represents how the different
 elements of the project interact with eachother.]
@@ -32,7 +28,6 @@ For testing purposes we also developed a Bash client
 https://github.com/MediusInc/slotex-nlp-pwc[SloTex NLP pwc] , which allows us
 to send multiple documents in `.txt` or `.doc` format to the Redis queue and
 allows us to initialize the training process and also other test scenario's. 
-
 
 == Project goals
 High-tech companies nowadays use language technologies in business
@@ -239,16 +234,20 @@ second opening of the project between the years of 2017 and 2020.
 Find out more about the founders
 link:http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/[here].
 
+[frame=none]
+[grid=none]
 |===
-a|image::logo-sklad-kadri.jpg[link=http://www.sklad-kadri.si/, 160, 160] a|image::logo-mizs.jpg[link=https://www.gov.si/en/public-authorities/ministries/ministry-of-education-science-and-sport/, 160, 160] a|image::logo-pkp.jpg[link=http://ec.europa.eu/esf/home.jsp?langId=en, 160,160]
+a|image::logo-sklad-kadri.jpg[link=http://www.sklad-kadri.si/,height=65px] a|image::logo-mizs.jpg[link=https://www.gov.si/en/public-authorities/ministries/ministry-of-education-science-and-sport/,height=65px] a|image::logo-pkp.jpg[link=http://ec.europa.eu/esf/home.jsp?langId=en,height=65px]
 |===
 
-== Project members
+== Project members 
 
 SloTex is a collaboration project between the corporate partner Medius and
 three faculties of University of Ljubljana: Faculty of Electrical Engineering,
 Faculty of Computer and Information Science and Faculty of Arts.
 
+[frame=none] 
+[grid=none] 
 |===
-a|image::logo.png[link=https://medius.si,160,160] a|image::logo-fe.png[link=https://fe.uni-lj.si,160,160] a|image::logo-fri.png[link=https://fri.uni-lj.si,160,160] a|image:logo-ff.png[link=https://ff.uni-lj.si,160,160]
+a|image::logo.png[link=https://medius.si,height=65px] a|image::logo-fe.png[link=https://fe.uni-lj.si,height=65px] a|image::logo-fri.png[link=https://fri.uni-lj.si,height=65px] a|image:logo-ff.png[link=https://ff.uni-lj.si,height=65px] 
 |===
