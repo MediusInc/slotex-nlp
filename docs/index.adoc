@@ -3,6 +3,7 @@
 :imagesdir: images
 :docinfo: shared
 
+
 SloTex NLP project joins all project modules and also includes project
 documentation. This documentation is rendered on http://slotex.si project's web
 page, or on https://github.com/MediusInc/slotex-nlp[Github].
@@ -236,8 +237,9 @@ link:http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/
 
 [frame=none]
 [grid=none]
+[cols="^,^,^"]
 |===
-a|image::logo-sklad-kadri.jpg[link=http://www.sklad-kadri.si/,height=65px] a|image::logo-mizs.jpg[link=https://www.gov.si/en/public-authorities/ministries/ministry-of-education-science-and-sport/,height=65px] a|image::logo-pkp.jpg[link=http://ec.europa.eu/esf/home.jsp?langId=en,height=65px]
+a|image::logo-sklad-kadri.jpg[link=http://www.sklad-kadri.si/,height=65,opts=inline] a|image::logo-mizs.jpg[link=https://www.gov.si/en/public-authorities/ministries/ministry-of-education-science-and-sport/,height=65,opts=inline] a|image::logo-pkp.jpg[link=http://ec.europa.eu/esf/home.jsp?langId=en,height=65,opts=inline]
 |===
 
 == Project members 
@@ -248,6 +250,7 @@ Faculty of Computer and Information Science and Faculty of Arts.
 
 [frame=none] 
 [grid=none] 
+[cols="^,^,^,^"]
 |===
-a|image::logo.png[link=https://medius.si,height=65px] a|image::logo-fe.png[link=https://fe.uni-lj.si,height=65px] a|image::logo-fri.png[link=https://fri.uni-lj.si,height=65px] a|image:logo-ff.png[link=https://ff.uni-lj.si,height=65px] 
+a|image::logo.png[link=https://medius.si,height=65] a|image::logo-fe.svg[link=https://fe.uni-lj.si,height=65,opts=inline] a|image::logo-fri.svg[link=https://fri.uni-lj.si,height=65,opts=inline]  a|image:logo-ff.svg[link=https://ff.uni-lj.si,height=65,opts=inline] 
 |===
