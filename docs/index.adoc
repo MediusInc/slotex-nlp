@@ -240,8 +240,11 @@ link:http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/
 [grid=none]
 [cols="^,^,^"]
 |===
-a|image::logo-sklad-kadri.jpg[link=http://www.sklad-kadri.si/,height=65,opts=inline] a|image::logo-mizs.jpg[link=https://www.gov.si/en/public-authorities/ministries/ministry-of-education-science-and-sport/about-us/,height=65,opts=inline] a|image::logo-pkp.jpg[link=http://ec.europa.eu/esf/home.jsp?langId=en,height=65,opts=inline]
+a|image::logo-enNEW.jpg[link=http://www.sklad-kadri.si/en/,height=65,opts=inline] a|image::logo-mizs.jpg[link=https://www.gov.si/en/public-authorities/ministries/ministry-of-education-science-and-sport/about-us/,height=65,opts=inline] a|image::logo-pkp.jpg[link=http://ec.europa.eu/esf/home.jsp?langId=en,height=65,opts=inline]
 |===
+
+**This project was founded by Republic of Slovenia and European union from
+European social found.**
 
 == Project members 
 
