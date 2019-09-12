@@ -1,7 +1,7 @@
 = image:slotex_logo.svg[Logo,height=128,opts=inline] 
 :toc: left
 :imagesdir: images
-:docinfo: shared
+:docinfo:
 
 SloTex NLP project joins all project modules and also includes project
 documentation. This documentation is rendered on http://slotex.si project's web

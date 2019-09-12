@@ -68,6 +68,7 @@
                     <sourceDirectory>src/docs/asciidoc</sourceDirectory>
                     <attributes>
                         <sourcedir>${project.build.sourceDirectory}</sourcedir>
+                        <html-googleAnalyticsId>UA-147740467-1</html-googleAnalyticsId>
                     </attributes>
                 </configuration>
                 <executions>
