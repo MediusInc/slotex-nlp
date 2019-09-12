@@ -238,9 +238,9 @@ link:http://www.sklad-kadri.si/si/razvoj-kadrov/po-kreativni-poti-do-znanja-pkp/
 
 [frame=none]
 [grid=none]
-[cols="^,^,^"]
+[cols="^.<,^.>,^.<"]
 |===
-a|image::logo-enNEW.jpg[link=http://www.sklad-kadri.si/en/,height=65,opts=inline] a|image::logo-mizs.jpg[link=https://www.gov.si/en/public-authorities/ministries/ministry-of-education-science-and-sport/about-us/,height=65,opts=inline] a|image::logo-pkp.jpg[link=http://ec.europa.eu/esf/home.jsp?langId=en,height=65,opts=inline]
+a|image::logo-sklad.svg[link=http://www.sklad-kadri.si/en/,height=65,opts=inline] a|image::logo-mizs.svg[link=https://www.gov.si/en/state-authorities/ministries/ministry-of-education-science-and-sport/,height=45] a|image::logo-pkp.svg[link=http://ec.europa.eu/esf/home.jsp?langId=en,height=65,opts=inline]
 |===
 
 **This project was founded by Republic of Slovenia and European union from
@@ -255,9 +255,9 @@ link:https://www.fe.uni-lj.si/en/[Faculty of Electrical Engineering],
 link:https://www.fri.uni-lj.si/en/[Faculty of Computer and Information Science]
 and link:https://ff.uni-lj.si[Faculty of Arts].
 
-[frame=none] 
-[grid=none] 
-[cols="^,^,^,^"]
+[frame=none]
+[grid=none]
+[cols="^.>,^.<,^.<,^.>"]
 |===
-a|image::logo.svg[link=https://medius.si,height=65,opts=inline] a|image::logo-fe.svg[link=https://fe.uni-lj.si,height=65,opts=inline] a|image::logo-fri.svg[link=https://fri.uni-lj.si,height=65,opts=inline] a|image:logo-ff.svg[link=https://ff.uni-lj.si/an/,height=65,opts=inline] 
+a|image::logo.svg[link=https://medius.si,height=35]  a|image::logo-fe.svg[link=https://fe.uni-lj.si,height=90,opts=inline] a|image::logo-fri.svg[link=https://fri.uni-lj.si,height=90,opts=inline] a|image:logo-ff.svg[link=https://ff.uni-lj.si/an/,height=90,opts=inline] 
 |===
