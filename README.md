@@ -4,6 +4,12 @@ Is a main SloTex NLP project, which joins all project modules and also include
 project user and developer documentation, project's web page, and all other
 necessary info to use or contribute to SloTex NLP in your own environment. 
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=MediusInc_slotex-nlp&metric=alert_status)](https://sonarcloud.io/dashboard?id=MediusInc_slotex-nlp)
+[![Build Status](https://travis-ci.org/MediusInc/slotex-nlp.svg?branch=master)](https://travis-ci.org/MediusInc/slotex-nlp)
+[![License](https://img.shields.io/github/license/MediusINC/slotex-nlp)]( https://github.com/MediusInc/slotex-nlp/blob/master/LICENSE.md)
+[![Slack](https://img.shields.io/badge/slack-@pkp2019-yellow.svg?logo=slack)](https://join.slack.com/t/pkp2019-slotex/shared_invite/enQtNzkwNTk5MDMyOTc2LTNhOTQ0MTU3ZDMzMDM2NDRhYTRlNWRkOWRmZTk0N2YzNmExNDliYTU1NGI4NWFjNjFhNTFkNTcyNzhlZGIzZmU)
+
+
 ![alt text](docs/images/SloTex_NLP_Core.png)
 ```
 The scheme above represents how the different elements of the project interact
@@ -23,6 +29,23 @@ For testing purposes we also developed a Bash client [SloTex NLP
 pwc](https://github.com/MediusInc/slotex-nlp-pwc), which allows us to send
 multiple documents in `.txt` or `.doc` format to the Redis queue and allows us
 to initialize the training process and also other test scenario's. 
+
+## Quick run using docker
+
+Here we provide step by step simple guide, how you can run the project using
+Docker and docker-compose, for quick start on local computer. 
+
+
+### Running Docker image with docker-compose
+
+Before running docker image locally, we expect that you set dependant variables
+and build image first. 
+
+```
+./run-in-docker.sh 
+```
+Now you could visit app by visiting `http://localhost:8080` in your favorite
+browser.
 
 
 ## Building documentation
