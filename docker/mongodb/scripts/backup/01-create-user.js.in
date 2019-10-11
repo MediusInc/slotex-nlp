@@ -1,0 +1,19 @@
+db.auth(__MONGO_INITDB_ROOT_USERNAME__, 
+        __MONGO_INITDB_ROOT_PASSWORD__);
+
+db.adminCommand('listDatabases')
+db = db.getSiblingDB(__MONGO_DATABASE__);
+
+db.createUser(
+   {
+     user: __MONGO_USERNAME__,
+     pwd: __MONGO_PASSWORD__,
+     roles:
+       [
+         { role: "readWrite", db: __MONGO_DATABASE__}, 
+         "userAdmin"
+       ]
+   }
+);
+
+db.getcollectionNames();
