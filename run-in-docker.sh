@@ -25,6 +25,7 @@ usage () {
     echo " --remove shout down running containers and remove all docker images from local docker registry"
     echo " --down shoot down running contaieners"
     echo " --check print docker status"
+    echo " --validate validate docker-compose.yml"
 
 }
 
@@ -70,7 +71,7 @@ check_if_var_is_set SLOTEX_NLP_CORE_TAG
 check_if_var_is_set SLOTEX_NLP_WEB_TAG
 
 # parse args and switches
-options=$(getopt -o hrpdc --long help,remove,pull,down,check -n 'parse-options' -- "$@")
+options=$(getopt -o hrpdcv --long help,remove,pull,down,check,validate -n 'parse-options' -- "$@")
 if [ "$?" != "0" ]; then  
     echo "ERROR options provided"
     usage;
@@ -84,6 +85,7 @@ down=false
 check=false
 rmi=false
 env=false
+validate=false
 while true; do
     case "$1" in
     -h | --help ) usage; shift; exit;;
@@ -91,6 +93,7 @@ while true; do
     -d | --down ) down=true; shift; shift ;;
     -c | --check ) check=true; shift; shift ;;
     -r | --remove ) rmi=true; shift; shift ;;
+    -v | --validate ) validate=true; shift; shift ;;
     -- ) shift; break;;
     *) usage; break;;
     esac
@@ -115,8 +118,13 @@ if [ "$rmi" = "true" ]; then
     run=false
 fi
 
-if [ "$check" = "true" ]; then
+if [ "$validate" = "true" ]; then
     docker-compose -f docker-compose.yml config -q
+    run=false
+fi
+
+if [ "$check" = "true" ]; then
+    docker-compose ps
     run=false
 fi
 
