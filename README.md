@@ -5,7 +5,7 @@ project user and developer documentation, project's web page, and all other
 necessary info to use or contribute to SloTex NLP in your own environment. 
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=MediusInc_slotex-nlp&metric=alert_status)](https://sonarcloud.io/dashboard?id=MediusInc_slotex-nlp)
-[![Build Status](https://travis-ci.org/MediusInc/slotex-nlp.svg?branch=master)](https://travis-ci.org/MediusInc/slotex-nlp)
+[![Build Status](https://travis-ci.com/MediusInc/slotex-nlp.svg?branch=master)](https://travis-ci.com/github/MediusInc/slotex-nlp)
 [![License](https://img.shields.io/github/license/MediusINC/slotex-nlp)]( https://github.com/MediusInc/slotex-nlp/blob/master/LICENSE.md)
 [![Slack](https://img.shields.io/badge/slack-@pkp2019-yellow.svg?logo=slack)](https://join.slack.com/t/pkp2019-slotex/shared_invite/enQtNzkwNTk5MDMyOTc2LTNhOTQ0MTU3ZDMzMDM2NDRhYTRlNWRkOWRmZTk0N2YzNmExNDliYTU1NGI4NWFjNjFhNTFkNTcyNzhlZGIzZmU)
 
