@@ -59,7 +59,7 @@ services:
       - mongodb
   # NLP-UI
   slotex-nlp-web:
-    image: pkpslotex/slotex-nlp-web:${SLOTEX_NLP_CORE_TAG}
+    image: pkpslotex/slotex-nlp-web:${SLOTEX_NLP_WEB_TAG}
     restart: always  
     container_name: slotex-nlp-web
     ports:
